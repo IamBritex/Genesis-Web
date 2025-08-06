@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genesis Engine - FNF Modding Engine</title>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&family=Space+Grotesk:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="logo">
+            <img src="assets/img/icon.png" alt="Genesis Engine Logo" id="logo-img">
+            <h1>Genesis Engine</h1>
+        </div>
+        <div class="menu-toggle" id="menu-toggle">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <div class="nav-links" id="nav-links">
+            <a href="#home" class="lang-inicio">Inicio</a>
+            <a href="https://github.com/IamBritex/FNF-Genesis-Engine" class="lang-descarga">Descarga</a>
+            <a href="https://youtu.be/XS8Dx4Hvsok" class="lang-avances">Avances</a>
+            <a href="https://iambritex.github.io/FNF-Genesis-Engine-Wiki/" class="lang-documentacion">Documentación</a>
+            <a href="https://discord.com/invite/XsgpgvjQ8p" class="lang-comunidad">Comunidad</a>
+            <div class="language-switch">
+                <button class="language-btn active" id="lang-es">ES</button>
+                <button class="language-btn" id="lang-en">EN</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-bg-video">
+            <video autoplay loop muted playsinline>
+                <source src="assets/videos/preview.webm" type="video/mp4">
+                Tu navegador no soporta el video de fondo.
+            </video>
+            <div class="hero-gradient"></div>
+        </div>
+        <div class="hero-content">
+            <img src="assets/img/Genesis Engine Logo.png" alt="Genesis Engine Logo" class="hero-logo">
+            <h2 class="lang-titulo-hero">Genesis Engine</h2>
+            <p class="lang-subtitulo-hero">El motor de modding definitivo para Friday Night Funkin' con rendimiento mejorado y soporte completo para mods</p>
+            
+            <!-- Social Icons -->
+            <div class="social-icons">
+                <a href="https://github.com/IamBritex/FNF-Genesis-Engine" target="_blank" class="social-icon github">
+                    <i class="fab fa-github"></i>
+                </a>
+                <a href="https://discord.com/invite/XsgpgvjQ8p" target="_blank" class="social-icon discord">
+                    <i class="fab fa-discord"></i>
+                </a>
+            </div>
+            
+            <div class="cta-buttons">
+                <a href="https://github.com/IamBritex/FNF-Genesis-Engine" class="btn btn-primary lang-btn-descargar">Descargar Ahora</a>
+                <a href="https://iambritex.github.io/FNF-Genesis-Engine-Wiki/" class="btn lang-btn-documentacion">Documentación</a>
+                <a href="https://iambritex.github.io/FNF-Genesis-Engine/" class="btn lang-btn-jugar">Jugar Ahora</a>
+                <a href="https://youtu.be/XS8Dx4Hvsok" class="btn lang-btn-documentacion">Avances</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features" id="features">
+        <h2 class="section-title lang-caracteristicas-principales">Características principales</h2>
+        
+        <!-- Feature 1 -->
+        <div class="feature">
+            <div class="feature-content">
+                <h3 class="feature-title lang-rendimiento">Rendimiento mejorado</h3>
+                <p class="feature-desc lang-rendimiento-desc">Optimizado para un rendimiento fluido incluso en hardware modesto.</p>
+            </div>
+            <div class="feature-img">
+                <img src="assets/img/picomods.png" alt="Rendimiento mejorado">
+            </div>
+        </div>
+        
+        <!-- Feature 2 -->
+        <div class="feature">
+            <div class="feature-content">
+                <h3 class="feature-title lang-personalizacion">Personalización</h3>
+                <p class="feature-desc lang-personalizacion-desc">Totalmente personalizable con soporte para temas y skins.</p>
+            </div>
+            <div class="feature-img">
+                <img src="assets/img/gfArtist.png" alt="Personalización">
+            </div>
+        </div>
+        
+        <!-- Feature 3 -->
+        <div class="feature">
+            <div class="feature-content">
+                <h3 class="feature-title lang-mods">Soporte para mods</h3>
+                <p class="feature-desc lang-mods-desc">Sistema de mods fácil de usar con documentación completa.</p>
+            </div>
+            <div class="feature-img">
+                <img src="assets/img/bfConfig.png" alt="Soporte para mods">
+            </div>
+        </div>
+        
+        <!-- Feature 4 -->
+        <div class="feature">
+            <div class="feature-content">
+                <h3 class="feature-title lang-multijugador">Multijugador</h3>
+                <p class="feature-desc lang-multijugador-desc">Próximamente</p>
+            </div>
+            <div class="feature-img">
+                <img src="assets/img/picomods.png" alt="Multijugador">
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p class="lang-derechos">© 2023 Genesis Engine. Todos los derechos reservados.</p>
+    </footer>
+
+<script src="assets/js/script.js"></script>
+</body>
+</html>
